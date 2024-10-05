@@ -1,11 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	background-color: rgba(98,174,150,1.00)
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(3,141,25,1.00)
+  background-color: rgba(6,37,112,1.00)
 }
 
 li {
