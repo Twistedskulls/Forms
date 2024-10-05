@@ -4,11 +4,10 @@
 <meta charset="utf-8">
 <title>Forms</title>
 </head>
-
-<body>
 	<link rel="stylesheet" href="main.css" type="text/css">
-	<nav>
-	<ul>
+	<body>
+		<div>
+	<nav><ul>
 		<li><a href="default.asp">Home</a></li>
 		<li><a href="contact.asp">Contact</a></li>
 		<li><a href="about.asp">About</a></li>
@@ -21,9 +20,13 @@
 	<label>Last Name</label>
 	<input>
 	<div>
+		<form>
+			<input type="radio" id="Option 1" name="group1" value="Option1">
+			<label for="option1">Wine</label><br>
+			<input type="radio" id="option2" name="group1" value="Option2">
+			<label for="option2">Coffee</label><br></form>
 		<button>Submit</button>
 	</div>
-	<div>
-	</div>
+		</div>
 </body>
 </html>

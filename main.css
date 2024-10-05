@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{
-	background-color: rgba(98,174,150,1.00)
+	background-color: rgba(98,174,150,1.00);
 }
 ul {
   list-style-type: none;
@@ -26,12 +26,17 @@ li a {
 li a:hover {
   background-color: #111;
 }
-button[type="submit"] {
-    background-color: #4CAF50;
+button{
+    background-color: blue;
 	color: white;
 	padding: 15px 20px;
 	border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+div {
+	width:900px;
+	margin:0 auto;
+	
 }
